@@ -1,0 +1,122 @@
+*{box-sizing: border-box;}
+@media only screen and(max-width: 1024px){
+    body{background-color: aliceblue;}
+}
+@media only screen and(min-width:320PX) {
+    body{background-color: aquamarine;}
+}
+
+
+body{position: relative;width: 100%;height: 100%;perspective:700px; background-color:rgb(234, 234, 255);}
+header{overflow: auto;width: 100%;height: 100;padding-top: 10}
+.logo{float: left;margin-left: 100;display: inline;}
+.logodot{float: right;margin: 0 0 5 10;font-size: 20;}
+.title1{margin-right: 15;margin-left: 40;padding-top: 15;font-size: 25;font-weight: bold;color: navy;overflow: auto;}
+.heading,.g,.h,.k,.j{float: left; margin: 0 30 ;}
+.g{border: 0;height: 55;width: 62;transition: 1s;}
+.g:hover{border: 2px solid blueviolet;}
+.home{height: 55;width: 65;transition: 1s;}
+.home:hover{border: 2px solid blueviolet;}
+.h{height: 55;transition: 1s;}
+.h:hover{border: 2px solid blueviolet;}
+.j{width: 65;height: 55;transition: 1s;}
+.j:hover{border: 2px solid blueviolet;}
+.k{height: 55;transition: 2s;}
+.k:hover{border: 2px solid blueviolet;}
+.p{padding-top: 25;}
+.table{visibility: hidden;z-index: 2;position: absolute;}
+.home:hover .table{visibility: visible;}
+.title2{width: 1000;height: 500;margin: auto;background-color: rgb(163, 154, 243);overflow: auto;margin-top: 100;}
+.title3{font-size: 25;float: left;margin-left: 20;margin-top: 50;}
+.title4{float: left;margin-left: 110;margin-top: 50;}
+button{color: blueviolet;border-radius: 10px;width: 100;height: 35;transform: translateX(100px);}
+.title5{visibility: hidden;transform: translate(10,30);}
+.line{width: 80;height: 3;background-color: #5252fa;margin-left: 580;margin-bottom: 10;transition: 1s;}
+.line:hover{transform: scaleX(2);}
+.title2:hover .title5{visibility: visible;}
+h2{text-align: center;}
+.p1{color: rgb(102, 107, 177); font-size:19;}
+.p2{font-size: 22;font-weight: bold;}
+.title10{visibility: hidden;}
+.title7:hover .title10{visibility: visible;}
+.title8:hover .title10{visibility: visible;}
+.title9:hover .title10{visibility: visible;}
+.title6{overflow: auto}
+.icon{visibility: hidden;transform: translate(275px,-200px);}
+.title11:hover .icon{visibility: visible;}
+.title7{width: 25%;height: 320;float: left;margin-left:150 ;background-color:rgb(201, 201, 255);}
+.title8{width: 25%;height: 320;background-color: rgb(201, 201, 255);float: left;margin:0 30;}
+.title9{width: 25%;height: 320;background-color: rgb(201, 201, 255); float: left;}
+.section3{overflow: auto; margin-top: 50;}
+.title12{width: 40%;height: 300;float: left;margin-left: 150; border-radius: 70px 30px 20px;background: -webkit-radial-gradient(top right,circle,rgb(250, 250, 87),rgb(230, 230, 100),rgb(91, 144, 241));}
+.title13{width: 20%;height: 300;background-image: url(../css/zahra1.jpg);float: left; margin: 0 20;transition: 1s;}
+.title14{width: 20%;height: 300;background-image:url(../css/zahra1.jpg);float: left;transition: 1s;}
+h3{margin-left: 30;display: inline;font-size: 22;font-weight: bold;}
+.o{margin-top: 20;margin-left: 10;}
+.oo{padding-left: 15;line-height: 2;font-size: 18;}
+.p3{padding-left: 20;color: chocolate;font-weight: bold;font-size: 22;}
+.p4{padding-left: 20;color: burlywood;font-weight: bold;font-size: 22;}
+.title13:hover{transform: scale(0.8,0.8);}
+.title14:hover{transform: scale(0.8,0.8);}
+.section4{overflow: auto;margin-top: 20;}
+.hotels li{list-style-type: none;float: left;font-size: 20; margin: 0 15;padding-bottom: 10;}
+.b{padding-left: 450;}
+.section6{overflow: auto;}
+.title16{float: left;position: relative;padding-left: 280;}
+.title17{float: left;margin: 0 40;}
+.title18{float: left;width: 200}
+.title19{margin-top: 20;text-align: center;}
+.ooo{margin: 0 10;color: gold;}
+.card{position: relative;transform-style: preserve-3d;transition: 1s;}
+.card:hover{transform: rotateY(180deg);}
+.front{backface-visibility: hidden;position: absolute;z-index: 1;}
+.back{transform: rotateY(180deg);}
+.section5{overflow: auto;transform-style: preserve-3d;}
+.title20{float: left;padding-left: 280;position: relative;}
+.title21{float: left;margin: 0 40;}
+.title22{float: left;}
+.back1{width: 200;height: 300;background-image: url(../css/new2.jpg);transform: rotateY(180deg);}
+.back2{width: 200; height: 300;background-image: url(../css/nm.jpg);transform: rotateY(180deg);}
+.back3{width: 200;height: 300;background-image: url(../css/new1.jpg);transform: rotateY(180deg);}
+.section7{overflow: auto; margin-top: 20;}
+.title30{float: left;position: relative; margin-left: 250;border-right: 2px solid rgb(54, 54, 250);background-image: url(../css/compound.jpg);width: 120;height: 120;transition: 0.3s;}
+.title30:hover{background-position: 0px -70px;}
+.title31{float: left;margin: 0 40;border-right: 2px solid rgb(54, 54, 250);background-image:url(../css/new1.jpg) ;width: 120;height: 120;transition: 0.3s;}
+.title31:hover{background-position: 0px -70px;}
+.title32{float: left; border-right: 2px solid rgb(54, 54, 250);background-image: url(../css/new2.jpg);width: 120;height: 120;transition: 0.3s;}
+.title32:hover{background-position: 0px -70px;}
+.title33{float: left;margin: 0 40;border-right: 2px solid rgb(54, 54, 250);background-image: url(../css/new3.jpg);width: 120;height: 120;transition: 0.3s;}
+.title33:hover{background-position: 0px -70px;}
+.title34{float: left;background-image: url(../css/new4.jpg);width: 120;height: 120;transition: 0.3s;}
+.title34:hover{background-position: 0px -70px;}
+.horizontal{width: 600;height: 10;background-color: blue;margin-left: 250;margin-top: 50;;animation-name: change;animation-duration: 4s;animation-delay: 60s;animation-fill-mode: forwards;animation-timing-function: ease;}
+@keyframes change{
+    0%{background-color: rgb(83, 209, 241);left: 0%;}
+    100%{background-color: rgb(202, 112, 112);}
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
